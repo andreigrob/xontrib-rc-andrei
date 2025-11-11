@@ -71,10 +71,10 @@ if $XONSH_INTERACTIVE:
     # It will be good to read 
     #  - https://github.com/anki-code/xonsh-cheatsheet#three-most-frequent-things-that-newcomers-missed
     #  - https://github.com/xonsh/xonsh/issues/4152#issue-823993141
-    $PROMPT_FIELDS['prompt_end'] = '@'
+    $PROMPT_FIELDS['prompt_end'] = '>'
 
     # Add xontrib-cmd-durations to right prompt.
-    # $RIGHT_PROMPT = '{long_cmd_duration}'
+    $RIGHT_PROMPT = '{long_cmd_duration}'
 
     # The SQLite history backend:
     # * Saves command immediately unlike JSON backend.
