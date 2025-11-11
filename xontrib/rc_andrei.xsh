@@ -80,6 +80,8 @@ if $XONSH_INTERACTIVE:
     # * Saves command immediately unlike JSON backend.
     # * Allows to do `history pull` to get commands from another parallel session.
     $XONSH_HISTORY_BACKEND = 'sqlite'
+    $XONSH_HISTORY_SIZE = "400000 commands"
+    $XONSH_STORE_STDIN = False
 
     # What commands are saved to the history list. By default all commands are saved. 
     # * The option ‘ignoredups’ will not save the command if it matches the previous command.
